@@ -1,0 +1,5 @@
+import winsound
+for i in range(0,10):   #"10" means the no. of beeps.
+    frequency = 2500
+    duration = 1000     #1000 = 1sec
+    winsound.Beep(frequency,duration)
